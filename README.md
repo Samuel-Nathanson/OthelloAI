@@ -12,29 +12,23 @@ Othello is a two player game, and one can win with the consistent application of
 
 Here's a guide to Othello, for those curious: http://samsoft.org.uk/reversi/strategy.htm
 
-Instructions to run this project from the command line
+Here are instructions to run OthelloAI from the command line on a POSIX System:
 
-1. Clone this repository
+git clone https://github.com/Samuel-Nathanson/OthelloAI.git # clone this repo 
 
-git clone https://github.com/Samuel-Nathanson/OthelloAI.git
+cd OthelloAI 
 
-2. Compile the program
+make # compiles the program 
 
-cd OthelloAI
-
-make
-
-3. Run the program
-
-java Othello
+java Othello 
 
 options:
 
--simulation : View a simulation of a battle between two bots
+  -simulation : View a simulation of a battle between two bots
 
--board-size <integer> : Use a custom board size (Only sizes of 8+ are supported)
+  -board-size <integer> : Use a custom board size (Only sizes of 8+ are supported)
   
--difficulty <integer> Sets the difficulty of the Othello AI. The range is between 1 and 8, Default is 5.
+  -difficulty <integer> Sets the difficulty of the Othello AI. The range is between 1 and 8, Default is 5.
 
 
 
